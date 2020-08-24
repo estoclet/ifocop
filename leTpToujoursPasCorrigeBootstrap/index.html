@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>La Bogeta</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="text-center">
+      <p>Appellez nous au <a href="tel:+33320304050">03 20 30 40 50</a> - </p>
+      <a href="login.html"><i class="fas fa-sign-in-alt"></i> Se connecter</a>
+    </header>
+    <main class="container my-3">
+      <section>
+        <nav class="navbar">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+          <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#menu" style="color:red;border-color:red"><i class="fas fa-bars fa-1x"></i></button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active" id="accueil">
+                <a class="nav-link text-white" href="#"><span id="blanc">Accueil</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span id="texte">Notre carte</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span id="texte">Nous contacter</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <h1 class="text-center">Vos pâtes et pizzas préférés <br><span id="sp1">livrés chez vous en un clic</span></h1>
+      <section>
+        <form class="form-inline justify-content-center my-5" method="post" id="recherche">
+          <input type="text" class="form-control w-75 p-3 rounded-0" name="adresse" placeholder="Saisissez votre adresse">
+          <button type="button" class="btn rounded-0" name="rechercher">Rechercher</button>
+        </form>
+      </section>
+      <section>
+        <h2 class="text-center">Découvrez nos produits !</h2>
+        <div class="row text-center justify-content-center">
+          <article class="card col-md-4 col-sm-6 border-0">
+            <div class="card-body">
+              <h3 class="card-title">Nos pizzas</h3>
+              <img class="card-img" src="images/pizza.jpg" alt="pizza">
+              <p class="card-text">Toutes nos pizzas sont faites maison avec des ingrédients frais et issus des circuits courts.</p>
+            </div>
+            <div class="card-footer border-0">
+              <a href="#" class="btn d-block" style="background-color:red; color:white">Voir la carte <i class="fas fa-plus-circle"></i></a>
+            </div>
+          </article>
+          <article class="card col-md-4 col-sm-6 border-0">
+            <div class="card-body">
+              <h3 class="card-title">Nos pâtes</h3>
+              <img class="card-img" src="images/pates.jpg" alt="pate">
+              <p class="card-text">Nos pâtes et ravioles sont frais et faits maison.</p>
+            </div>
+            <div class="card-footer border-0">
+              <a href="#" class="btn d-block" style="background-color:red; color:white">Voir la carte <i class="fas fa-plus-circle"></i></a>
+            </div>
+          </article>
+          <article class="card col-md-4 col-sm-6 border-0">
+            <div class="card-body">
+              <h3 class="card-title">Nos salades</h3>
+              <img class="card-img" src="images/salade.jpg" alt="salade">
+              <p class="card-text">Nos salades sont délicieuses et vous permettent de manger léger et équilibré.</p>
+            </div>
+            <div class="card-footer border-0">
+              <a href="#" class="btn d-block" style="background-color:red; color:white">Voir la carte <i class="fas fa-plus-circle"></i></a>
+            </div>
+          </article>
+          <article class="card col-md-4 col-sm-6 border-0">
+            <div class="card-body">
+              <h3 class="card-title">Nos desserts</h3>
+              <img class="card-img" src="images/dessert.jpg" alt="dessert">
+              <p class="card-text">Pour conclure en beauté, pas de festin italien sans dulce bien sucré !</p>
+            </div>
+            <div class="card-footer border-0">
+              <a href="#" class="btn d-block" style="background-color:red; color:white">Voir la carte <i class="fas fa-plus-circle"></i></a>
+            </div>
+          </article>
+          <article class="card col-md-4 col-sm-6 border-0">
+            <div class="card-body">
+              <h3 class="card-title">Nos boissons fraiches</h3>
+              <img class="card-img" src="images/boissons-fraiches.jpg" alt="boisson">
+              <p class="card-text">Un soda ou une eau fraiche pour accompagner votre repas.</p>
+            </div>
+            <div class="card-footer border-0">
+              <a href="#" class="btn d-block" style="background-color:red; color:white">Voir la carte <i class="fas fa-plus-circle"></i></a>
+            </div>
+          </article>
+          <article class="card col-md-4 col-sm-6 border-0">
+            <div class="card-body">
+              <h3 class="card-title">Nos vins</h3>
+              <img class="card-img" src="images/vins.jpg" alt="vin">
+              <p class="card-text">Des vins italiens, blanc, rosé ou rouge, pour accompagner vos repas.</p>
+            </div>
+            <div class="card-footer border-0">
+              <a href="#" class="btn d-block" style="background-color:red; color:white">Voir la carte <i class="fas fa-plus-circle"></i></a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center">
+      <p>&copy; 2020 Pizzéria La Botega | <a href="#">Mentions légales</a> | <a href="#">CGV</a></p>
+    </footer>
+  </body>
+</html>
