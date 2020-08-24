@@ -1,0 +1,74 @@
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4em;
+  color: #555;
+  margin: 5px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: red;
+  font-family: Original Surfer, cursive;
+}
+
+h3, #sp1 {
+  color: green;
+  font-family: Original Surfer, cursive;
+}
+
+header {
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header * {
+  display: inline;
+}
+
+#menu {
+  border: 1px solid red;
+}
+
+#accueil {
+  background-color: red;
+}
+
+#texte {
+  margin-left: 10px;
+  color: red;
+}
+
+#blanc {
+  margin-left: 10px;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: rgba(204, 0, 0, 0.2);
+}
+
+#recherche {
+}
+
+#recherche button {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
